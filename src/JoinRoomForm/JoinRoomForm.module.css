@@ -1,0 +1,47 @@
+.jr-form-container {
+    display: inline-block;
+    border: gold 2px solid;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    vertical-align: middle;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 10px 10px 1px inset;
+    box-shadow: rgb(255, 255, 255, 0.16) 10px 10px 10px inset;
+  }
+
+    
+  .jr-form-container h1 {
+    color: gold;
+    margin-bottom: 2rem;
+    font-size: 50px;
+  }
+
+  .jr-form-container h2 {
+    color: gold;
+    margin-bottom: 2rem;
+  }
+
+  .jr-form-container input{
+     background-color: black;
+     border: gold 1px solid;
+     margin: 2rem auto;
+     display: block;
+     font-size: 25px;
+    border-radius: 10px;
+    color: gold;
+    box-shadow: gray 0px 0px 5px;   
+  }
+
+  .jr-form-container button {
+    color: gold;
+    font-size: larger;
+    text-shadow: 0 0 10px #fcfcfc;
+    background-color: black;
+    box-shadow: #fea91e 1px 1px 30px inset;
+    padding: 1.8rem;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
