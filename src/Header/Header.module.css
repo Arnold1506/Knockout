@@ -1,0 +1,32 @@
+.main-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background-color: black;
+    color: gold;
+    padding: 0 20px;
+    margin: 0;
+    border-bottom: 3px gold solid;
+    display: flex;
+    justify-content: space-between;
+}
+.main-header h1{
+    margin: 0;
+}
+
+.main-header div{
+    display: flex;
+}
+
+.main-header div>button{
+    height: 100%;
+    margin: 0 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.main-header div button>img{
+    height: 100%;
+}

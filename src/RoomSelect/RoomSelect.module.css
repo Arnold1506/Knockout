@@ -1,0 +1,109 @@
+.main-container{
+    margin:11rem auto;
+    width: 1300px;
+    box-sizing: border-box;
+}
+
+.main-container .btn-container{
+    display: inline-block;
+    padding: 10rem;
+    /* border: solid gold 5px; */
+    width: 50%;
+    height: 60%;
+    vertical-align: middle;
+}
+
+
+.main-container .btn-container>.btn1{
+    display: block;
+    margin: auto;
+    height: 6rem;
+    margin-bottom: 5rem;
+    padding: 1.5rem auto;
+    border-radius: 20px;
+    border:gold solid 2px;
+    box-shadow: #FEA91E 1px 1px 30px inset;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    width: 25rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.main-container .btn-container>.btn2{
+    display: block;
+    margin: auto;
+    height: 6rem;
+    padding: 1.5rem auto;
+    border-radius: 20px;
+    border:black solid 2px;
+    box-shadow: #FEA91E 1px 1px 30px inset;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    width: 25rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.main-container .btn-container button img{
+    height: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+
+
+.main-container .form-container{
+    display: inline-block;
+    border: gold 2px solid;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    vertical-align: middle;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0,.16) 10px 10px 1px inset;
+    box-shadow: rgb(255, 255, 255,.16) 10px 10px 10px inset;
+    
+
+}
+
+.main-container .form-container h1{ 
+    color: gold;
+    margin-bottom: 6rem;
+    font-size: 50px;
+}
+
+.main-container .form-container select{
+    margin: auto;
+    margin-bottom: 3rem;
+    display: block;
+    text-align-last: center;
+    overflow: auto;
+    width: 331px;
+    overflow: visible;
+    padding: 1.5rem 5rem;
+    color: gold;
+    font-size: 25px;
+    background-color: black;
+    box-shadow: #FEA91E 1px 1px 30px inset;
+    border:none;
+}
+
+.main-container .form-container select::after{
+    padding-right: 1rem;
+}
+
+.main-container .form-container button{
+    color: gold;
+    font-size: larger;
+    text-shadow: 0 0 10px #FCFCFC;
+    background-color: black;
+    box-shadow: #FEA91E 1px 1px 30px inset;
+    padding:1.8rem;
+    border-radius: 15px;
+    border:none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
