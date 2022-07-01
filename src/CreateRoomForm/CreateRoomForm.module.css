@@ -1,9 +1,10 @@
 .cr-form-container {
     display: inline-block;
     border: gold 2px solid;
-    padding: 5px;
+    padding: 1px;
+    margin-top: 5rem;
     text-align: center;
-    width: 50%;
+    width: 40%;
     vertical-align: middle;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.16) 10px 10px 1px inset;
@@ -22,7 +23,7 @@
     display: block;
     text-align-last: center;
     overflow: auto;
-    width: 331px;
+    width: 20vw;
     overflow: visible;
     padding: 1.5rem 5rem;
     color: gold;

@@ -3,7 +3,7 @@
     border: gold 2px solid;
     padding: 5px;
     text-align: center;
-    width: 50%;
+    width: 40%;
     vertical-align: middle;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.16) 10px 10px 1px inset;
@@ -13,22 +13,24 @@
     
   .jr-form-container h1 {
     color: gold;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     font-size: 50px;
   }
 
   .jr-form-container h2 {
     color: gold;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
 
   .jr-form-container input{
      background-color: black;
      border: gold 1px solid;
-     margin: 2rem auto;
+     margin: 4rem auto;
      display: block;
-     font-size: 25px;
+     font-size: 2.5rem;
     border-radius: 10px;
+    width: 80%;
     color: gold;
     box-shadow: gray 0px 0px 5px;   
   }

@@ -1,12 +1,14 @@
 .main-container {
-  margin: 11rem auto;
-  width: 1300px;
+  margin: 8% auto;
+  width: 80%;
   box-sizing: border-box;
 }
 
 .main-container .btn-container {
   display: inline-block;
-  padding: 10rem;
+  padding: auto;
+  margin-top: 8rem;
+  padding-bottom: 5rem;
   /* border: solid gold 5px; */
   width: 50%;
   height: 60%;
@@ -24,7 +26,7 @@
   box-shadow: #fea91e 1px 1px 30px inset;
   background-color: black;
   color: white;
-  font-size: 35px;
+  font-size: 2.1rem;
   width: 25rem;
   cursor: pointer;
 }
